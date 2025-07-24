@@ -9,6 +9,11 @@
 :root{
     --ui-color: #422c57;
 }
+
+.team-image{
+    aspect-ratio: 1/1;
+}
+
 body{
     background-color: rgb(17, 17, 17);
     overflow-x: hidden;
@@ -180,6 +185,10 @@ a{
     .team-members h3{
         margin-bottom: 16px;
     }
+
+    .team-image{
+        width: 96px;
+    }
 }
 
 .nav-rightSide{
@@ -251,6 +260,9 @@ a{
 
     .nav-desktopIcons{
         gap: 36px;
+    }
+    .team-image{
+        width: 128px;
     }
 }
 
@@ -343,6 +355,10 @@ a{
 
     .team-members h3{
         margin-bottom: 16px;
+    }
+
+    .team-image{
+        width: 128px;
     }
 
 }
