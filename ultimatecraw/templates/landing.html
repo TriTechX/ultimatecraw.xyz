@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CrawSMP
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='landing.css') }}">
+        <link rel="icon" type="image/png" href="/static/favicon.png">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="application-name" content="CrawSMP">
+        <meta name="description" content="The Minecraft survival experience of a lifetime.">
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://ultimatecraw.xyz">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="CrawSMP - Hang Out and Slay Monsters">
+        <meta property="og:description" content="The Minecraft survival experience of a lifetime.">
+        <meta property="og:image" content="https://ultimatecraw.xyz/static/favicon.png">
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="ultimatecraw.xyz">
+        <meta property="twitter:url" content="https://ultimatecraw.xyz">
+        <meta name="twitter:title" content="CrawSMP - Hang Out and Slay Monsters">
+        <meta name="twitter:description" content="The Minecraft survival experience of a lifetime.">
+        <meta name="twitter:image" content="https://ultimatecraw.xyz/static/favicon.png">
+
+        <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+        <script type="application/ld+json">
+            {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "CoreBench",
+            "url": "https://ultimatecraw.xyz"
+            }
+        </script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="content">
+            <div class="top-img">
+                <img class="absolute-gameplayScreenshot" src="/static/filler.png" alt="CrawSMP gameplay">
+            </div>
+            <div class="top-info">
+                <img class="relative-logoImgBig" src="/static/crawsmp-logo.png">
+            </div>
+
+            <div class="nav-bar">
+                <div class="nav-leftSide">
+                    <div class="dropdown-header"><i class="fa fa-bars" aria-hidden="true"></i></div>
+
+                    <div class="nav-desktopIcons">
+                        <a href="#how-to"><i class="fa-solid fa-circle-question"></i> How to Join</a>
+                        <a href="#specs"><i class="fa-solid fa-memory"></i> System Requirements</a>
+                        <a href="#rules"><i class="fa-solid fa-scale-balanced"></i> Rules</a>
+                        <a href="#about"><i class="fa-solid fa-circle-info"></i> About</a>
+                    </div>
+
+                </div>
+                <div class="nav-rightSide">
+                    <a href="https://discord.gg/yUvVDXuVcy"><span class="discord-text">Join the Discord!</span></a><a href="https://discord.gg/yUvVDXuVcy"><i class="fa-brands fa-discord"></i></a>
+                </div>
+
+            </div>
+
+            <div class="paragraph" id="welcome">
+                <h2>👋 Welcome!</h2>
+                <p>Welcome to the CrawSMP, a prestigious Minecraft Java survival multiplayer server hosted by <b>The Craw</b> himself.</p>
+                <div class="break"></div>
+                <p>With over <b>300 mods</b> including <a href="https://www.curseforge.com/minecraft/mc-mods/acclaimed-origins"><b>Acclaimed Origins</b></a>, <a href="https://www.curseforge.com/minecraft/mc-mods/bewitchment"><b>Bewitchment</b></a>,
+                <a href="https://www.curseforge.com/minecraft/mc-mods/mythicmetals"><b>Mythic Metals</b></a>, and many, <b>many</b> more, the CrawSMP has hundreds of hours of gameplay and fun for everyone.</p>
+                <div class="break"></div>
+                <p>To join right away, just <a href="#how-to"><b>install the modpack</b></a> and add <b>play.ultimatecraw.xyz</b> to your server list.</p>
+            </div>
+
+            <div class="paragraph" id="how-to">
+                <h2>🚀 How to Join</h2>
+                <p>Joining the CrawSMP is quick and easy! Just follow these steps to get started:</p>
+                <div class="break"></div>
+                <p><b>1.</b> Download and install the <a href="https://www.curseforge.com/download/app"><b>CurseForge Launcher</b></a> (standalone version recommended for better performance).</p>
+                <span class="tiny-text">You can download the CurseForge Launcher <a href="https://www.curseforge.com/download/app" style="color: #00fff2;">here</a>.</span>
+                <div class="break"></div>
+                <p><b>2.</b> Open CurseForge, search for <b>"DarkRPG"</b>, and make sure to select the <b>Fabric</b> version of the modpack.</p>
+                <div class="break"></div>
+                <p><b>3.</b> Allocate at least <b>6144MB of memory</b> in the CurseForge settings to ensure smoother gameplay.</p>
+                <span class="tiny-text">It is not recommended to allocate more than 8GB of RAM.</span>
+                <div class="break"></div>
+                <p><b>4.</b> Launch Minecraft from CurseForge, head to Multiplayer, and add our server:</p>
+                <p id="copyLink"><b>play.ultimatecraw.xyz</b></p>
+                <span class="tiny-text">Click on the link to copy it to your clipboard!</span>
+                <div class="break"></div>
+                <p>That's it - you're ready to play! 🎉</p>
+            </div>
+
+            <div class="paragraph" id="specs">
+                <h2>🖥️ Hardware Requirements</h2>
+                <span class="tiny-text"><i>Due to the server being on modded Java, the requirements are more restrictive than before.</i></span>
+
+                <div class="break"></div>
+                <p><b>Minimum:</b><br>
+                    • <b>8GB</b> RAM (may encounter stuttering)<br>
+                    • Intel i5-6500 / AMD Ryzen 5 1400<br>
+                    • GTX 1050 (2GB) / RX 560 (2GB)
+                </p>
+                <div class="break"></div>
+                <p><b>Recommended:</b><br>
+                    • <b>12GB</b> RAM<br>
+                    • Intel i5-7600 / AMD Ryzen 5 3400G<br>
+                    • GTX 1060 (6GB) / RX 580 (4GB)
+                </p>
+                <div class="break"></div>
+                <p><b>Optimal (with Shaders):</b><br>
+                    • <b>16GB</b> RAM (DDR4+)<br>
+                    • Intel i7-7700 / AMD Ryzen 5 3600<br>
+                    • RTX 2060 / RX 5600XT
+                </p>
+                <div class="break"></div>
+
+                <span class="tiny-text"><i>Note: The game will run on less powerful hardware, but performance may not be enjoyable.</i></span>
+            </div>
+
+            <div class="paragraph" id="rules">
+                <h2>📜 CrawSMP Chapter 2 Rules</h2>
+                <p>Welcome to CrawSMP Chapter 2! To ensure a positive and respectful community, please follow these rules at all times. By joining the server, you agree to abide by these rules.</p>
+                
+                <div class="break"></div>
+
+                <h3>🧑‍🤝‍🧑 General Conduct</h3>
+                <div class="break"></div>
+                <p><b>a. No Cheating of Any Kind</b></p>
+                <ul>
+                    <li><b>a. I.</b> The use of external programs, hacked clients, x-ray texture packs, autoclickers, or macros is strictly prohibited.</li>
+                    <li><b>a. II.</b> All gameplay must be conducted using unmodified Minecraft clients with only approved mods (see Modpack Usage).</li>
+                </ul>
+
+                <p><b>b. No Duplication Exploits</b></p>
+                <ul>
+                    <li><b>b. I.</b> Using glitches, bugs, or unintended mechanics to duplicate items, blocks, experience, or currency is forbidden.</li>
+                    <li><b>b. II.</b> If a duplication glitch is discovered, report it immediately to server staff or admins. Failure to report constitutes a breach of this rule.</li>
+                </ul>
+
+                <p><b>c. No Griefing</b></p>
+                <ul>
+                    <li><b>c. I.</b> Do not intentionally destroy, modify, or steal from other players' bases or builds without explicit permission.</li>
+                    <li><b>c. II.</b> This includes unclaimed and claimed land. Leave untouched anything clearly built by another player or detailed by the server.</li>
+                </ul>
+
+                <p><b>d. No Harassment or Toxicity</b></p>
+                <ul>
+                    <li><b>d. I.</b> Treat others with respect. Bullying, hate speech, targeted harassment, or any form of discrimination will lead to disciplinary action.</li>
+                    <li><b>d. II.</b> This includes chat, voice, builds, or any form of interaction.</li>
+                </ul>
+
+                <p><b>e. PvP Rules</b></p>
+                <ul>
+                    <li><b>e. I.</b> PvP is only allowed with mutual consent. Random or repeated attacks without prior agreement are not allowed.</li>
+                    <li><b>e. II.</b> PvP events may be organized by server staff with specific rules that override general PvP rules temporarily.</li>
+                </ul>
+
+                <div class="break"></div>
+
+                <h3>⚙️ DarkRPG Modpack Guidelines</h3>
+                <div class="break"></div>
+                
+                <p><b>a. Allowed Gameplay Features</b></p>
+                <ul>
+                    <li><b>a. I.</b> Most DarkRPG features are enabled, including skill trees, enhanced combat, and custom structures.</li>
+                    <li><b>a. II.</b> Players may level up skills and use RPG mechanics as intended by the mod.</li>
+                </ul>
+
+                <p><b>b. Banned or Restricted Features</b></p>
+                <ul>
+                    <li><b>b. I.</b> Features enabling flight, teleportation, or excessive XP gain beyond balanced progression may be disabled or restricted.</li>
+                    <li><b>b. II.</b> If a mod or item provides access to creative-mode-like features, it is banned unless explicitly approved.</li>
+                </ul>
+
+                <p><b>c. Skill Exploitation</b></p>
+                <ul>
+                    <li><b>c. I.</b> Leveling skills through AFK methods (e.g., autoclickers, mob grinders running without player activity) is not allowed.</li>
+                    <li><b>c. II.</b> Skills should progress through active gameplay only.</li>
+                </ul>
+
+                <p><b>d. Modpack Integrity</b></p>
+                <ul>
+                    <li><b>d. I.</b> All players must use the officially provided version of the DarkRPG modpack unless stated otherwise.</li>
+                    <li><b>d. II.</b> Personal modifications (e.g., zoom hacks, minimap X-ray, or client-side automation) are not allowed.</li>
+                </ul>
+
+                <div class="break"></div>
+
+                <h3>🏡 Building & Land Use</h3>
+                <div class="break"></div>
+
+                <p><b>a. Claiming Land</b></p>
+                <ul>
+                    <li><b>a. I.</b> Players are encouraged to mark their bases clearly. Use signs or claim systems to formalize land claims where possible.</li>
+                    <li><b>a. II.</b> Avoid building too close to other players without consent. Maintain reasonable space between bases (to be defined by moderation).</li>
+                    <li><b>a. III.</b> Land can be expanded up to 100 chunks in surface area. There is no limit to the height of land claims.</li>
+                    <li><b>a. IV.</b> Owning a plot does not give you the right to enforce user-specific rules on others within your plot. Server-wide rules apply everywhere.</li>
+                    <li><b>a. V.</b> Any area within 20 chunks of spawn cannot be claimed.</li>
+                </ul>
+
+                <p><b>b. Community Projects</b></p>
+                <ul>
+                    <li><b>b. I.</b> Shared builds, like shopping districts or farms, must be used responsibly. Do not hoard resources or exploit public systems.</li>
+                    <li><b>b. II.</b> Major infrastructure projects should be discussed with the community before starting.</li>
+                </ul>
+
+                <div class="break"></div>
+
+                <h3>💰 Economy & Trading</h3>
+                <div class="break"></div>
+
+                <p><b>a. Fair Trade</b></p>
+                <ul>
+                    <li><b>a. I.</b> All trades must be mutually agreed upon. Scamming is not allowed, even as a joke.</li>
+                    <li><b>a. II.</b> Shops must clearly display prices and be stocked regularly if operating in public areas.</li>
+                </ul>
+
+                <p><b>b. Item Value Balancing</b></p>
+                <ul>
+                    <li><b>b. I.</b> Do not mass-sell items gained via exploits or modpack quirks. If unsure whether an item is fair to trade, consult a moderator.</li>
+                </ul>
+
+                <div class="break"></div>
+
+                <h3>⚖️ Enforcement Policy</h3>
+                <div class="break"></div>
+
+                <p><b>a. Offense Tiers</b></p>
+                <ul>
+                    <li><b>a. I.</b> First Offense: Warning or temporary kick depending on severity.</li>
+                    <li><b>a. II.</b> Second Offense: Temporary ban (duration varies depending on offense).</li>
+                    <li><b>a. III.</b> Third Offense: Permanent ban.</li>
+                    <li><b>a. IV.</b> Disciplinary actions are at the discretion of the moderation team. Players can appeal bans through official channels.</li>
+                </ul>
+
+                <p><b>b. Moderation Guidelines</b></p>
+                <ul>
+                    <li><b>b. I.</b> If unsure whether something is allowed, ask before proceeding.</li>
+                    <li><b>b. II.</b> Respect others' efforts. CrawSMP is a community-driven world.</li>
+                    <li><b>b. III.</b> Rules may change at any time. Players will be notified of updates.</li>
+                    <li><b>b. IV.</b> Players have the right to voice concerns about any rule to staff members.</li>
+                </ul>
+
+                <div class="break"></div>
+
+                <h3>⚖️ Court of Craw</h3>
+                <div class="break"></div>
+
+                <p><b>c. I.</b> In serious cases (repeat offenses, disputes over harassment, or unclear accusations), the case will be escalated to the Court of Craw.</p>
+                <ul>
+                    <li><b>c. II.</b> The Court of Craw consists of at least three moderators and Craw, who serves as the lead judge. Special circumstances may allow a court event to take place without Craw.</li>
+                    <li><b>c. III.</b> The Court will review all evidence (chat logs, screenshots, video footage, and witness statements). Judgments will be impartial and punishments scaled accordingly.</li>
+                    <li><b>c. IV.</b> Players involved in cases will have a chance to defend themselves. Additional comments can be made to mod staff.</li>
+                </ul>
+
+                <div class="break"></div>
+
+                <p>And of course, have fun! 🎮</p>
+            </div>
+
+        </div>
+
+        
+
+        <script>
+            document.getElementById('copyLink').addEventListener('click', function(e) {
+                e.preventDefault();
+                const ip = 'play.ultimatecraw.xyz';
+            });
+        </script>
+
+
+        <div class="info-section" id="server-info">
+            <h2>ℹ️ Server Information</h2>
+            
+            <!-- Team Members Section -->
+            <div class="team-members">
+                <h3>👨‍💻 Meet the Team</h3>
+                <div class="team-container">
+                    <div class="team-member">
+                        <img src="static/craw.png" alt="Craw" class="team-image">
+                        <h4>Craw</h4>
+                        <p>Server Provider & Manager</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="static/xytrophico.png" alt="Xytrophico" class="team-image">
+                        <h4>Xytrophico</h4>
+                        <p>Lead Programmer & Server Manager</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="static/grimpixelz.png" alt="GrimPixelZ" class="team-image">
+                        <h4>GrimPixelZ</h4>
+                        <p>Modpack Curator & Moderator</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Info Section -->
+            <div class="thanks-section">
+                <h3>🙏 Special Thanks</h3>
+                <p>A big thank you to <strong>DarkRPG</strong> for the mod list inspiration that helped bring CrawSMP to life!</p>
+            </div>
+
+            <div class="contact-info">
+                <h3>📩 Contact Support</h3>
+                <p>If you have any issues or questions, feel free to reach out to us:</p>
+                <p><a href="mailto:support@ultimatecraw.xyz" class="contact-link">support@ultimatecraw.xyz</a></p>
+            </div>
+
+            <div class="server-info">
+                <h3>🔗 Server Info</h3>
+                <p>Server IP: <strong>play.ultimatecraw.xyz</strong></p>
+                <p>Discord: <a href="https://discord.gg/ultimatecraw" class="contact-link">Join our community!</a></p>
+            </div>
+        </div>
+    </body>
+</html>
