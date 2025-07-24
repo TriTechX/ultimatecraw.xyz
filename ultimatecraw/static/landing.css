@@ -151,8 +151,12 @@ a{
         padding: 24px 20px;
     }
 
-    .nav-desktopIcons{
+    .nav-desktopIcons a span{
         display: none;
+    }
+
+    .nav-desktopIcons{
+        gap: 36px;
     }
 
     .discord-text{
@@ -215,10 +219,6 @@ a{
         font-size: 32px;
     }
 
-    .nav-desktopIcons{
-        display: none;
-    }
-
     .discord-text{
         display: block;
     }
@@ -243,6 +243,14 @@ a{
 
     .team-members h3{
         margin-bottom: 16px;
+    }
+
+    .nav-desktopIcons a span{
+        display: none;
+    }
+
+    .nav-desktopIcons{
+        gap: 36px;
     }
 }
 
