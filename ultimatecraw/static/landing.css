@@ -58,7 +58,7 @@ body{
     cursor: pointer;
 }
 
-.paragraph{
+.paragraph, .info-section{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -112,7 +112,7 @@ a{
         font-size: 20px;
     }
 
-    .paragraph{
+    .paragraph, .info-section{
         margin-top: 24px;
         width: 85vw;
         padding: 24px 20px;
