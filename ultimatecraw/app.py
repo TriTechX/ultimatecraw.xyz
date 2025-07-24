@@ -20,5 +20,9 @@ app.secret_key = "crawcodesmells"
 def landing_page():
     return render_template("landing.html")
 
+@app.errorhandler(404)
+def page_not_found(error):
+    return redirect(url_for("landing_page"))
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
