@@ -271,7 +271,6 @@
             <div class="info-section" id="server-info">
                 <h2>ℹ️ Server Information</h2>
                 
-                <!-- Team Members Section -->
                 <div class="team-members">
                     <h3>👨‍💻 Meet the Team</h3>
                     <div class="team-container">
@@ -310,11 +309,11 @@
                 </div>
                 
                 <div class="break"></div>
-                
+
                 <div class="server-info">
                     <h3>🔗 Server Info</h3>
                     <p>Server IP: <strong>play.ultimatecraw.xyz</strong></p>
-                    <p>Discord: <a href="https://discord.gg/ultimatecraw" class="contact-link">Join our community!</a></p>
+                    <p>Discord: <a href="https://discord.gg/yUvVDXuVcy" class="contact-link">Join our community! <i class="fa-brands fa-discord"></i></a></p>
                 </div>
             </div>
 
@@ -325,7 +324,11 @@
         <script>
             document.getElementById('copyLink').addEventListener('click', function(e) {
                 e.preventDefault();
+
                 const ip = 'play.ultimatecraw.xyz';
+                navigator.clipboard.writeText(ip).then(function() {
+                    console.log('IP copied to clipboard: ' + ip);
+                })
             });
         </script>
     </body>
