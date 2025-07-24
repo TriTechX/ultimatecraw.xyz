@@ -131,6 +131,18 @@ a{
         width: 100vw;
         height: auto;
     }
+
+    .team-member p{
+        font-size: 12px;
+    }
+
+    .team-members{
+        margin: 24px 0;
+    }
+
+    .team-members h3{
+        margin-bottom: 16px;
+    }
 }
 
 .nav-rightSide{
@@ -160,7 +172,7 @@ a{
         font-size: 20px;
     }
 
-    .paragraph{
+    .paragraph, .info-section{
         margin-top: 24px;
         width: 85vw;
         padding: 24px 20px;
@@ -187,6 +199,18 @@ a{
         width: 100vw;
         height: auto;
     }
+
+    .team-member p{
+        font-size: 16px;
+    }
+
+    .team-members{
+        margin: 24px 0;
+    }
+
+    .team-members h3{
+        margin-bottom: 16px;
+    }
 }
 
 @media(min-width: 1024px){
@@ -210,7 +234,7 @@ a{
         font-size: 20px;
     }
 
-    .paragraph{
+    .paragraph, .info-section{
         margin-top: 24px;
         font-size: 20px;
         width: 75vw;
@@ -268,7 +292,22 @@ a{
         mask-size: 100% 100%;
     }
 
+    .team-member p{
+        font-size: 16px;
+    }
 
+    .team-members{
+        margin: 24px 0;
+    }
+
+    .team-members h3{
+        margin-bottom: 16px;
+    }
+
+}
+
+.team-members{
+    width: 100%;
 }
 
 .tiny-text *, .tiny-text{
