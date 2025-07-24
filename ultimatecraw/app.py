@@ -16,6 +16,10 @@ limiter = Limiter(
 app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1)
 app.secret_key = "crawcodesmells"
 
+@app.route("/ads.txt")
+def ads_txt():
+    return send_from_directory("static", "ads.txt", mimetype="text/plain")
+
 @app.route("/")
 def landing_page():
     return render_template("landing.html")
